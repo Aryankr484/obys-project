@@ -9,6 +9,18 @@ html,body{
     font-family: "Plain Light";
     color: white;
 }
+#crsr{
+    height: 2.6vw;
+    width: 2.6vw;
+    border-radius: 50%;
+    /* background-color: white; */
+    border: 1px solid rgb(181, 181, 181);
+    position: fixed;
+    z-index: 999;
+    mix-blend-mode: difference;
+    transform: translate(-50%, -50%);
+
+}
 #loader{
     height: 100%;
     width:100%;
@@ -64,6 +76,56 @@ html,body{
     font-weight: 100%;
     background-color: #151515;
 }
+#page1 #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.3vw 5.5vw;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+#nav-part2 h4{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+.hero{
+    /* background-color: red; */
+    height: fit-content;
+    width: 71%;
+    margin-left: 29%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+
+}
+.hero:nth-child(2){
+    margin-top: 19vh;
+}
+.hero h1{
+    font-size: 7.2vw;
+    text-transform: uppercase;
+    line-height: 7vw;
+}
+
+.hero h2, .hero h3{
+    font-size: 7.2vw;
+    text-transform: uppercase;
+    line-height: 7vw;
+}
+.hero h2:hover{
+    -webkit-text-stroke: 0.5px #fff;
+    color: transparent;
+    font-weight: 500;
+}
+
+
+
 @keyframes anime{
     0%{
         font-family:"plain light";
