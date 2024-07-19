@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+}
+.box1{
+    height: 100px;
+    width:100px;
+    background-color: blue;
+    position: absolute;
+    top: 0%;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color:green;
+    position: absolute;
+    top: 0%;
+}
