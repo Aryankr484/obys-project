@@ -360,13 +360,14 @@ html,body{
     position: relative;
     width: 100%;
     /* background-color: rgb(97, 97, 97);a */
-    padding-top: 7vh 0;
+    padding-top: 10vh;
     overflow-x: hidden;
 }
 #page4-content{
     width: 72vw;
     position:relative;
     margin-left: 28%;
+   
 }
 
 #page4-content h1{
@@ -440,6 +441,8 @@ html,body{
     min-height: 100vh;
     width: 100%;
     position: relative;
+    /* background-color: red; */
+    margin-top: 15vw;
 }
 .elem{
     /* background-color: red; */
@@ -549,7 +552,7 @@ html,body{
     color: transparent;
 }
 #footer{
-    min-height: 120vh;
+    height: 100vh;
     width:100%;
     /* background-color: red; */
     position: relative;
@@ -663,12 +666,22 @@ html,body{
     #flag{
         height: 25vw;
     }
+    #page1{
+        height: 60vh;
+        font-weight: 100%;
+        background-color: #151515;
+    }
+    #page2{
+        height: 50vh;
+    }
     #video-container{
         width: 100%;
         left: 0%;
         margin-top: -20%;
         /* bottom: 30%; */
     }
+
+
     #video-cursor{
         height: 20vw;
         width: 20vw;
@@ -712,10 +725,9 @@ html,body{
     #page3{
         min-height: 100vh;
         width:100%;
-        margin-bottom: 27vw;
         padding: 17vh 2vw;
         margin-top: 40vw;
-    
+        margin-bottom: -30vw;
         /* background-color: rgb(81, 80, 80); */
     }
     #image-div-container{
@@ -840,7 +852,7 @@ html,body{
         /* background-color: rgb(97, 97, 97);a */
         padding-top: 7vh 0;
         overflow-x: hidden;
-        margin-top: 90vw;
+        margin-top: 1vw;
     }
     #page4-content{
         width: 90vw;
@@ -926,17 +938,17 @@ html,body{
         text-align: left;
     }
     #page5{
-        min-height: 80vh;
+        min-height: 40vh;
         width: 100%;
         position: relative;
-        margin-top: 70vw;
+        margin-top: 10vw;
     }
     #footer{
-        min-height: 120vh;
+        height: 90vh;
         width:100%;
         /* background-color: red; */
         position: relative;
-    
+     
         
     }
     #footer h1{
