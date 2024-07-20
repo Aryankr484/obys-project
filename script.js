@@ -190,11 +190,11 @@ gsap.from("#footer h1",{
   opacity:0,
   delay:0.5,
   duration:1,
-  scrollTrigger:{
-    trigger:"#footer h1",
-    scroller:"#main",
-    end:"top 20%",
-  },
+  // scrollTrigger:{
+  //   trigger:"#footer h1",
+  //   scroller:"#main",
+  //   end:"top 20%",
+  // },
   onStart:function(){
     $('#footer h1').textillate({ in: { effect: 'fadeIn' } });
   }
